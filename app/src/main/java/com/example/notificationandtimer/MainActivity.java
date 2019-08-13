@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
           @Override
           public void onFinish() {
-            
+
               String title = editTextTitle.getText().toString();
               String massage = editTextMassage.getText().toString();
               Notification notification = new NotificationCompat.Builder(MainActivity.this,App.CHANEL_1_ID)
